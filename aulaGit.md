@@ -10,3 +10,4 @@
 | git config --global user.name <'Nome do Usuário'> | Informa o nome do usuário proprietário |
 | git congig --global user.email <'Email do Usuário'> | Informa o email do usuário proprietário |
 | git config --list | Verifica os dados do usuário - username e email |
+| git commit -m 'primeiro commit' | Faz o commit |
