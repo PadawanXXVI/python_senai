@@ -14,3 +14,4 @@
 | git log | Verifica histórico de commits |
 | git checkout -b NomeDaBranch | Cria e muda de branch no projeto |
 | git checkout nomeDaBranch| Muda de uma branch para outra existente |
+| git branch | Lista as branches existentes no projeto |
