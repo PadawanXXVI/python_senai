@@ -15,4 +15,6 @@
 | git checkout -b NomeDaBranch | Cria e muda de branch no projeto |
 | git checkout nomeDaBranch| Muda de uma branch para outra existente |
 | git branch | Lista as branches existentes no projeto |
-| git merge nomeDaBranch | |
+| git merge nomeDaBranch | Mescla os dados das branches|
+| git branch -d nomeDaBranch| Deleta a branch -d (minúsculo) só possível com todos commites|
+| git branch -D nomeDaBranch| Deleta a branch -D (maiúsculo) deleta a branch mesmo sem terem sido feitos os commits|
