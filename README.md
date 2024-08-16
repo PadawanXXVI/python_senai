@@ -1,4 +1,4 @@
-# CURSO DE PYTHON
+# CURSO DE PYTHON NO SENAI
 
 Curso de capcitação python ofertado pelo programa Inovatech em parceria com o Senai DF.
 
