@@ -12,4 +12,5 @@
 | git config --list | Verifica os dados do usuário - username e email |
 | git commit -m 'primeiro commit' | Faz o commit |
 | git log | Verifica histórico de commits |
-
+| git checkout -b NomeDaBranch | Cria e muda de branch no projeto |
+| git checkout nomeDaBranch| Muda de uma branch para outra existente |
