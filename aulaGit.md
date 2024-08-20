@@ -18,3 +18,5 @@
 | git merge nomeDaBranch | Mescla os dados das branches|
 | git branch -d nomeDaBranch| Deleta a branch -d (minúsculo) só possível com todos commites|
 | git branch -D nomeDaBranch| Deleta a branch -D (maiúsculo) deleta a branch mesmo sem terem sido feitos os commits|
+| git clone <'link do repositório'>| Faz uma cópia do repositório no diretório |
+| git push -u origin 'nomeDaBranch| Envia as alterações da máquina local para o repositório online |
