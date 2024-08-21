@@ -47,6 +47,7 @@ if idade < 18:
 else: 
     print('Pode assistir')
 '''
+'''
 aladdin = input('Aladdin apareceu [S/N]?\n').strip().upper()
 jasmine = input('Jasmine apareceu [S/N]?\n').strip().upper()
 
@@ -67,4 +68,19 @@ if not (aladdin == 'S' or jasmine == 'S'):
     print('Aproveitou que estava na rua e foi para a balada')
 else:
     print('Não rolou o encontro')
+'''
+
+'''
+Operadores de coparação
+== igual
+!=
+>
+<
+>=
+<=
+'''
+idade = int(input('Informe sua idade: \n'))
+
+if (idade > 17):
+    print('maior de idade')
 
