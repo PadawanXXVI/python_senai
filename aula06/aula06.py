@@ -88,10 +88,30 @@ print(nomes)
 for nome in nomes:
     print(nome)
 """
-
+'''
 nome = 'Anderson'
 
 for i in nome:
     print(i)
 
+'''
+
+print('')
+print('-='*60)
+print(f'{"WHILE - EM PORTUGUÊS SIGNIFICA *ENQUANTO* ":^120}')
+'''
+numero = None
+
+while numero != 0:
+    numero = int(input('Informe o número: '))
+'''
+
+contador = 1
+numero = int(input('Informe um número: '))
+
+
+while contador < 10:
+    numero *= 2
+    print(numero)
+    contador += 1
 
