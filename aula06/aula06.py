@@ -1,6 +1,3 @@
-from ast import match_case
-
-
 print()
 print('-='*60)
 print(f'{"MATCH CASE":^120}')
