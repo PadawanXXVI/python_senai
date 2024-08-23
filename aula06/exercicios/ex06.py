@@ -32,7 +32,4 @@ else:
 print('-='*60)
 print(f'{'FIM DE PROGRAMA':^120}')
 print('-='*60)
-
-
-
     
