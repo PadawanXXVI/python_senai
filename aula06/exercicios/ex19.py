@@ -2,7 +2,7 @@
 
 fruta = str(input('Qual sua fruta preferida?\n')).lower()
 
-if fruta == 'maçã':
+if fruta == 'maçã' or fruta == 'maca' or fruta == 'maça':
     print('Sua fruta preferida é maçã')
 else:
     print('Sua fruta preferida não é maçã')

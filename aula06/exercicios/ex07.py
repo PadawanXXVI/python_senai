@@ -6,7 +6,7 @@ print('-='*60)
 nota = int(input('Escolha uma nota de 0 a 10:\n'))
 if nota < 5:
     print(f'A nota {nota} é uma nota BAIXA ')
-elif 5 <= nota <= 7:
+elif nota <= 7:
     print(f'A nota {nota} é uma nota MÉDIA')
 else:
     print(f'A nota {nota} é uma nota ALTA')

@@ -13,7 +13,7 @@ divi = numero1 / numero2
 print(f'A soma de {numero1} e {numero2} é {soma}')
 print(f'A subtração de {numero1} e {numero2} é {subt}')
 print(f'A multiplicação de {numero1} e {numero2} é {multi}')
-print(f'A divisão de {numero1} e {numero2} é {divi}')
+print(f'A divisão de {numero1} e {numero2} é {divi:.2f}')
 
 print('-='*60)
 print(f'{"FIM DO PROGRAMA":^120}')

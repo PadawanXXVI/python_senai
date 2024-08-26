@@ -6,12 +6,12 @@ print('-='*60)
 
 idade = int(input('Informe a idade do cidadão:\n'))
 
-if 16 <= idade <= 65:
-    print(f'O cidadão tem {idade} anos e o voto é ORBIGATÓRIO')
-elif idade < 16:
-    print(f'O cidadão tem {idade} e não PODE VOTAR')
+if idade < 16:
+    print(f'O cidadão tem {idade} anos e NÃO PODE VOTAR')
+elif 16 <= idade <= 65:
+    print(f'O cidadão tem {idade} anos e o VOTO É ORBRIGATÓRIO')
 else:
-    print(f'O cidadão tem {idade} e o voto é OPCIONAL')
+    print(f'O cidadão tem {idade} anos e o VOTO É OPCIONAL')
 
 print('-='*60)
 print(f'{"FIM DO PROGRAMA":^120}')

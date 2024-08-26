@@ -1,7 +1,7 @@
 # Escreva um programa que peça ao usuário para inserir uma palavra e verifique se ela tem mais de 5 letras.
 
 print('-='*60)
-print(f'("TAMANHO DA PALAVRA":^120)')
+print(f'{"TAMANHO DA PALAVRA":^120}')
 print('-='*60)
 
 palavra = str(input('Digite uma palavra:\n'))
