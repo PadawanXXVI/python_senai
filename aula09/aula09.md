@@ -10,4 +10,14 @@
  - join
  - slice
  
+ ## Métodos de Lista
+
+ CRUD - CREATE, READ, UPDATE and DELETE
+
+- append
+- extend
+- insert
+- remove
+- pop
+- index
 
