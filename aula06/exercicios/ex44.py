@@ -4,4 +4,5 @@ for i in range(10):
     numero = int(input(f'Informe o {i+1}º número:\n'))
     if numero % 2 == 0:
         par.append(numero)
+par.sort()
 print(*par,sep='... ')
