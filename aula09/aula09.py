@@ -9,7 +9,7 @@ print(texto2)
 print('-='*40)
 
 # UPPER
-nome = 'aNDERson de mAToS guimaRÂES'
+nome = 'aNDERson de mAToS guimaRÃES'
 nome2 = nome.upper()
 print(nome.upper())
 print(nome2)
