@@ -1,8 +1,5 @@
 # Métodos de String
 
-from calendar import c
-
-
 texto = 'anderson de Matos Guimarães'
 
 # CAPITALIZE
