@@ -1,13 +1,12 @@
 # pular esta
 
-palindromo = 'a torre da derrota'
-palindromo2 = palindromo.strip()
-if palindromo == palindromo[::-1]:
-    print('É palíndromo')
-else:
-    print('Não é palíndromo')
+frase = str(input('Digite uma frase:\n')).strip().upper()
+palavras = frase.split()
+junto = ''.join(palavras)
+inverso = junto[::-1]
 
-if palindromo == palindromo2:
-    print('É palíndromo')
+print(f'O inverso {junto} é {inverso}')
+if inverso == junto:
+    print('A frase digitada é um palíndromo')
 else:
-    print('Não é palíndromo')
+    print('A frase digitada não é um palíndromo')
