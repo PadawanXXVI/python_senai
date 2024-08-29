@@ -28,6 +28,3 @@ b = int(input('Informe o valor do coeficiente "b": '))
 c = int(input('Informe o valor do coeficiente "c": '))
 delta = b**2 - 4*a*c
 print(f'O valor de delta é {delta}')
-
-
-
