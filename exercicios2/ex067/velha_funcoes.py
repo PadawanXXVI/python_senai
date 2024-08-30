@@ -9,7 +9,7 @@ def desenhar_tabuleiro():
         if indice == 2 or indice == 5 or indice == 8:
             print(i)
         else:
-            print(i, end=' ')
+            print(i, end=' | ')
 
 
 def jogar(jogada, jogador):
@@ -30,7 +30,7 @@ def verifica_vitoria():
        tabuleiro[6] ==  tabuleiro[7] == tabuleiro[8]):
        return True
     elif (tabuleiro[0] ==  tabuleiro[3] == tabuleiro[6] or
-        tabuleiro[1] ==  tabuleiro[3] == tabuleiro[7] or
+        tabuleiro[1] ==  tabuleiro[4] == tabuleiro[7] or
         tabuleiro[2] ==  tabuleiro[5] == tabuleiro[8]):
         return True
     elif (tabuleiro[0] ==  tabuleiro[4] == tabuleiro[8] or
@@ -38,3 +38,4 @@ def verifica_vitoria():
          return True
     else:
         return False
+        

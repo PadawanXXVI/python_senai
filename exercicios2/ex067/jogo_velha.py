@@ -1,4 +1,3 @@
-from pickle import FALSE
 import velha_funcoes as jv
 
 jogador = 'O'
