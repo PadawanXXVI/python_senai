@@ -8,6 +8,7 @@ def imprimir_tabuleiro(tabuleiro):
     print("--+---+--")
     print(f"{tabuleiro[6]} | {tabuleiro[7]} | {tabuleiro[8]}")
 
+
 def verificar_vencedor(tabuleiro, jogador):
     condicoes_vitoria = [
         [0, 1, 2], [3, 4, 5], [6, 7, 8],  # Linhas
@@ -19,6 +20,7 @@ def verificar_vencedor(tabuleiro, jogador):
             return True
     return False
 
+
 def jogo_da_velha():
     tabuleiro = [str(i) for i in range(1, 10)]
     jogador_atual = "X"
@@ -26,7 +28,8 @@ def jogo_da_velha():
 
     while jogadas < 9:
         imprimir_tabuleiro(tabuleiro)
-        jogada = int(input(f"Jogador {jogador_atual}, escolha um campo (1-9): ")) - 1
+        jogada = int(
+            input(f"Jogador {jogador_atual}, escolha um campo (1-9): ")) - 1
 
         if tabuleiro[jogada] in "XO":
             print("Campo já preenchido. Tente novamente.")
@@ -44,6 +47,7 @@ def jogo_da_velha():
 
     imprimir_tabuleiro(tabuleiro)
     print("Empate!")
+
 
 if __name__ == "__main__":
     jogo_da_velha()
